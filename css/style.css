@@ -160,7 +160,9 @@ h5,h6,.fw-medium {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: var(--primary);
+    height: 100px;
+    
+    color: var(--secondary);
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -524,6 +526,8 @@ h5,h6,.fw-medium {
 
 .team-item .team-img img,
 .blog-item .blog-img img  {
+    width: 300px;
+    height: 400px;
     transition: .5s;
 }
 
